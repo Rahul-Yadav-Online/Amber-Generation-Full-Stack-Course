@@ -1,0 +1,58 @@
+Comments:
+---------
+Comments in java are similar to that in C/C++, i.e.,
+// Single line comments
+/* Multi
+Line 
+Comments */
+
+Printing:
+-----------
+Printing output on Console in java is done by System.out.print() and System.out.println() functions.
+Here, 
+System.out.print() -> prints on the console as is
+System.out.println() -> prints on console as is and then add a "\n" (new line char) at the end of the Output String.
+
+Data Types:
+-----------
+In Java we have following Primitive Data Types:
+byte : 1 byte
+short : 2 bytes
+int : 4 bytes
+long : 8 bytes
+float : 4 bytes (precision of 6 decimal digits)
+double : 8 bytes (precision of 15 decimal digits)
+char : 2 bytes
+boolean : 1 bit
+
+Non premitive / Complex data types that we mostly use : 
+String : for storing multiple chars
+
+
+Typecasting : 
+------------
+Conversion of one data type manually(explicit) or automatically(implicit) during compilation;
+ex :
+	int a = 10;
+	long b = a; // implicit conversion by compiler
+	float c = a; // implicit conversion
+	double d = (double)a; // explicit type conversion
+
+Implicit conversion : 
+<dt1> var1 = var2<dt2>;
+here var1 is of data type dt1 and var2 is of data type dt2, such that, sizeof(dt1) > sizeof(dt2)
+
+Input:
+------
+Console Input in java is done using Scanners class present in java.util.* package
+
+ex : 
+import java.util.*
+
+public class ConsoleInput{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next(); // for white spaces in string input use nextLine() function instead of next();
+		System.out.print(name);
+	}
+}
