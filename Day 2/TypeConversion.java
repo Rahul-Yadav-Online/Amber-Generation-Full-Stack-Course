@@ -11,7 +11,7 @@ public class TypeConversion{
 		System.out.println("Marks = "+(marks));
 		System.out.println("Percentage = "+(percentage));
 		
-		int marks2 = 85.234;
-		System.out.println("Percentage of 2nd subject : "+ (double)marks2); // explicit typeconversion
+		int marks2 = (int)85.98;
+		System.out.println("Percentage of 2nd subject : "+(double)marks2); // explicit typeconversion
 	}
 }
