@@ -1,0 +1,210 @@
+body{
+    margin: 0 ;
+    background-color: rgb(29, 31, 48);
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-color:rgb(233, 81, 81);
+}
+
+.navigation{
+    float:right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
+}
+.navigation a:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(233, 81, 81);
+    font-size: 21px;
+}
+
+.navigation a:active{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(233, 81, 81);
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none; 
+    color: white
+    
+}
+
+.banner{
+    padding-top: 135px;
+    padding-bottom: 135px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner h1{
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 100;
+
+    margin-bottom: 5px;
+}
+
+.banner p{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 5px;
+}
+
+.about{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+.about h2{
+    display: inline;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(233, 81, 81);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(233, 81, 81);
+}
+
+.about p{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    padding-top: 10px;
+}
+
+.about u{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
+    color: lightgray;
+    padding-top: 10px;
+}
+
+.skills{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.skills h2{
+    display: inline;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(233, 81, 81);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(233, 81, 81);
+}
+
+.skill{
+    align-content: center;
+    display: inline-block;
+    padding: 2px 16px;
+    background-color: rgb(40, 42, 65);
+    box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2);
+    margin: 30px ;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.skill p{
+    text-align: center;
+    color: gray;
+}
+
+
+.portfolio{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.portfolio h2{
+    display: inline;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(233, 81, 81);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(233, 81, 81);
+}
+
+.project{
+    align-content: center;
+    display: inline-block;
+    padding: 2px 16px;
+    background-color: rgb(40, 42, 65);
+    box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2);
+    margin: 30px ;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.project p{
+    text-align: center;
+    color: gray;
+}
+
+.navigation1{
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
+}
+.navigation1 a:hover{
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color:rgb(233, 81, 81);
+    font-size: 21px;
+}
