@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(247, 235, 247);
+    color: black;
+    padding-left: 100px;
+    padding-right:100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    text-align:center;
+}
+nav{
+    padding: 10px;
+}
+nav p{
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+    border-bottom: solid black;
+}
+dt{
+    padding: 10px;
+}
+dd{
+   padding: 10px; 
+}
+
+aside{
+    text-align: left;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
